@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "🛠️ 正在创建虚拟环境并启动项目..."
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
